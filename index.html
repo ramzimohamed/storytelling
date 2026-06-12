@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Story Telling</title>
+<style>
+  :root{--v:#7C3AED;--p:#EC4899;--ink:#1c1230;--muted:#5b5470}
+  *{box-sizing:border-box}
+  body{margin:0;font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:var(--ink);background:#fff}
+  .hero{background:linear-gradient(160deg,var(--v),var(--p));color:#fff;padding:72px 24px 64px;text-align:center}
+  .badge{width:84px;height:84px;border-radius:22px;background:#fff;display:inline-flex;align-items:center;justify-content:center;margin-bottom:20px}
+  .badge svg{width:46px;height:46px}
+  h1{margin:0 0 10px;font-size:34px;letter-spacing:-.5px}
+  .tag{font-size:18px;opacity:.92;max-width:560px;margin:0 auto}
+  main{max-width:720px;margin:0 auto;padding:48px 24px}
+  h2{font-size:20px;margin:36px 0 12px}
+  p{color:var(--muted)}
+  ul{color:var(--muted);padding-left:20px}
+  a{color:var(--v)}
+  .links{margin-top:40px;padding-top:24px;border-top:1px solid #eee;font-size:15px}
+  footer{color:#9a93ad;font-size:13px;text-align:center;padding:32px 24px 48px}
+</style>
+</head>
+<body>
+  <div class="hero">
+    <div class="badge">
+      <svg viewBox="0 0 100 100"><path d="M20 18h60a8 8 0 0 1 8 8v40a8 8 0 0 1-8 8H44l-14 14V74H20a8 8 0 0 1-8-8V26a8 8 0 0 1 8-8z" fill="#7C3AED"/><path d="M42 34v32l26-16z" fill="#fff"/></svg>
+    </div>
+    <h1>Story Telling</h1>
+    <p class="tag">A tool that creates and publishes original, AI-generated short videos to the operator's own TikTok account.</p>
+  </div>
+  <main>
+    <h2>What it does</h2>
+    <p>Story Telling generates original short-form videos &mdash; script, voiceover, and visuals &mdash; and publishes them to the operator's own TikTok account through TikTok's official Content Posting API. It is an automation tool operated by and for its owner; it does not act on behalf of third parties.</p>
+
+    <h2>AI-generated content</h2>
+    <p>All videos produced by Story Telling are AI-generated and are flagged as AI-generated content (AIGC) before they are published, in line with TikTok's transparency requirements. The tool never reposts or republishes third-party content.</p>
+
+    <h2>How it connects to TikTok</h2>
+    <ul>
+      <li>The account owner authorizes the app with their own TikTok account via OAuth (Login Kit).</li>
+      <li>Videos are published directly to the owner's profile via Direct Post (Content Posting API).</li>
+      <li>Posting is rate-limited; the owner controls what is published.</li>
+    </ul>
+
+    <div class="links">
+      <a href="terms.html">Terms of Service</a> &nbsp;&middot;&nbsp;
+      <a href="privacy.html">Privacy Policy</a> &nbsp;&middot;&nbsp;
+      Contact: <a href="mailto:[YOUR-EMAIL]">[YOUR-EMAIL]</a>
+    </div>
+  </main>
+  <footer>&copy; 2026 [YOUR NAME / OPERATOR]. Story Telling.</footer>
+</body>
+</html>
